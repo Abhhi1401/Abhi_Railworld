@@ -1,0 +1,14 @@
+package com.railworld;
+
+public class MainM {
+	public static void main(String[] args) {
+	
+		Employee1 e = new Employee1(1, "Abhi", 28, 20000);
+		Employee1 e1 = new Employee1(1, "Abhi", 28, 20000);
+		
+		System.err.println(e==e1);
+		System.out.println(e.equals(e1));
+
+	}
+
+}

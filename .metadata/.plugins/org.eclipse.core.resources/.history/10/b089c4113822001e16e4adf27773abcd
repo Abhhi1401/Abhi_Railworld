@@ -1,0 +1,13 @@
+package com.railworld;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Employee e1 = new Employee(14, "Amit", 28, "M");
+		System.out.println(e1);
+		
+		
+	}
+
+}
